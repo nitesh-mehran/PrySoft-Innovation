@@ -14,7 +14,7 @@ const Blog = () => {
     },
     {
       title: "Mastering Instagram in 2025",
-      image: "nitish.jpg",
+      image: "insta.png",
       author: "Nitish sharma",
       date: "2025-04-11",
     },
