@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+
+
+/* Home.css */
+.logo-slider-wrapper {
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 16px 0;
+  position: relative;
+}
+
+.logo-slider {
+  display: flex;
+  gap: 3rem;
+  width: max-content;
+  animation: scroll-logos 10s linear infinite;
+}
+
+.logo-slide {
+  flex: 0 0 auto;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes scroll-logos {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
