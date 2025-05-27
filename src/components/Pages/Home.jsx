@@ -54,7 +54,7 @@ const Home = () => {
           data-aos-once="true"
         >
           <h1 className="text-4xl md:text-5xl font-bold text-white text-center md:text-left leading-snug">
-            Welcome to PrySofT,
+            Welcome to PrySoft,
             <br />
             We are Delighted and
             <br />
